@@ -1,0 +1,203 @@
+/* all */
+
+a
+{
+    text-decoration: none;
+    color: #fff;
+}
+
+body
+{
+    font-family: 'Comfortaa', cursive;
+    margin: 0;
+
+    background-color: #c7dbb6;
+
+    font-size: 30px;
+    color: #fff;
+}
+
+*, 
+*::after, 
+::before 
+{
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h5
+{
+    margin: 0;
+}
+
+/* Intro */
+
+.intro
+{
+    width: 100%;
+    height: 100vh;
+    background: url("../img/general/background_profile.jpg") center no-repeat;
+}
+
+
+/* Header */
+
+.header
+{
+    display: flex;
+    flex-flow: row nowrap;
+
+    height: 75px;
+    top: 0;
+    right: 0;
+    left: 0;
+    position: absolute;
+
+    background: url("../img/general/header_bck_01.jpg") center;
+}
+
+#title
+{
+    font-size: 47px;
+    text-align: center;
+    padding: 13px;
+    margin: auto;
+    letter-spacing: 10px;
+}
+
+#left_btn
+{
+    width: 200px;
+
+   font-size: 30px;
+   text-align: left;
+   padding: 20px;
+
+   color: #fff;
+   transition: 0.2s linear;
+
+
+}
+
+#right_btn
+{
+   font-size: 30px;
+   text-align: right;
+   padding: 20px;
+   text-decoration: none;
+
+   width: 200px;
+
+    color: #fff;
+    transition: 0.2s linear;
+}
+
+#left_btn:hover, #right_btn:hover
+{
+    color: #f2eb9bcb;
+}
+
+/* Content */
+
+.content
+{
+    display: flex;
+    flex-flow: row nowrap;
+
+    width: 962px;
+    height: 450px;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    margin: auto;
+
+    background: #c3d7b49f;
+
+    border: 5px solid rgba(0, 0, 0, 0.141);
+    border-radius: 70px;
+
+    color: black;
+}
+
+#profile_photo
+{
+    width: 300px;
+    height: 300px;
+
+    border: 3px solid rgba(0, 0, 0, 0.146);
+    border-radius: 70px;
+    margin: 40px 40px 0px 40px;
+    object-fit: cover;
+}
+
+#id_and_name
+{
+    text-align: center;
+    font-size: 40px;
+
+    margin-top: 15px;
+}
+
+#frog_type
+{
+    position: relative;
+    text-align: center;
+    margin-top: 40px;
+}
+
+#frog_type::after
+{
+    display: block;
+    content: "";
+    background-color: #d66969;
+    height: 5px;
+
+    width: 500px;
+    margin-left: 40px;
+    margin-top: 15px;
+}
+
+#frog_description
+{
+    font-size: 20px;
+    width: 85%;
+
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 25px;
+}
+
+/* Down */
+
+.down
+{
+    height: 60px;
+    position: absolute;
+
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: url("../img/general/down_bck_03.jpg") center ;
+}
+
+#chanel
+{
+    font-size: 33px;
+    display: block;
+
+    text-align: center;
+    padding-top: 13px;
+    text-decoration: none;
+    color: #fff;
+    opacity: 65%;
+
+    transition: 0.2s linear;
+}
+
+#chanel:hover
+{
+    color: #f2eb9bcb;
+}

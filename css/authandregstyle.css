@@ -1,0 +1,83 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family: 'Comfortaa', cursive;
+
+    height: 100vh;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    background: url("../img/auth_and_reg/back.jpg")
+}
+
+form
+{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+
+    border: 1px solid black;
+    padding: 50px;
+}
+
+#login_field, #password_field, #passwordagain_field
+{
+    font-size: 20px;
+    text-align: center;
+
+    margin-top: 5px;
+    margin-bottom: 10px;
+    height: 30px;
+
+    border: unset;
+    border-radius: 10px;
+}
+
+h1
+{
+    margin-bottom: 15px;
+}
+
+button
+{
+    border: unset;
+    border-radius: 10px;
+    background-color: darkolivegreen;
+
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+    font-family: 'Comfortaa', cursive;
+    font-size: 20px;
+    height: 30px;
+
+    cursor: pointer;
+}
+
+#radiofrog, #radiotoad
+{
+    height: 10px;
+    cursor: pointer;
+}
+
+.first
+{
+    display: flex;
+    flex-direction: column;
+}
+
+#msg
+{
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(255, 0, 0);
+}

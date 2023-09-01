@@ -1,0 +1,280 @@
+/* all */
+
+a
+{
+    text-decoration: none;
+    color: #fff;
+}
+
+body
+{
+    font-family: 'Comfortaa', cursive;
+    margin: 0;
+
+    background-color: #c7dbb6;
+
+    font-size: 30px;
+    color: #fff;
+}
+
+*, 
+*::after, 
+::before 
+{
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h5
+{
+    margin: 0;
+}
+
+/* Intro */
+
+.intro
+{
+    width: 100%;
+    height: 100vh;
+    background: url("../img/general/background.jpg") center no-repeat;
+}
+
+/* Header */
+
+.header
+{
+    display: flex;
+    flex-flow: row nowrap;
+
+    height: 75px;
+    top: 0;
+    right: 0;
+    left: 0;
+    position: absolute;
+
+    background: url("../img/general/header_bck_01.jpg") center;
+}
+
+#title
+{
+    font-size: 47px;
+    text-align: center;
+    padding: 13px;
+    margin: auto;
+    letter-spacing: 10px;
+}
+
+#left_btn
+{
+    width: 200px;
+
+   font-size: 30px;
+   text-align: left;
+   padding: 20px;
+
+   color: #fff;
+   transition: 0.2s linear;
+
+
+}
+
+#right_btn
+{
+   font-size: 30px;
+   text-align: right;
+   padding: 20px;
+   text-decoration: none;
+
+   width: 200px;
+
+    color: #fff;
+    transition: 0.2s linear;
+}
+
+#left_btn:hover, #right_btn:hover
+{
+    color: #f2eb9bcb;
+}
+
+/* Intro */
+
+.welcome_text, .welcome_text2
+{
+
+
+    position: absolute;
+    text-align: center;
+    font-size: 35px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    margin: auto;
+}
+
+.welcome_text
+{
+    top: 20%;
+}
+
+.welcome_text2
+{
+    top: 80%;
+}
+
+
+
+/* Content */
+
+.content
+{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+
+    width: 855px;
+    height: 300px;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    margin: auto;
+
+    background: #f2eb9bcb;
+
+    border: 0px;
+    border-radius: 70px;
+}
+
+#menu_list
+{
+    padding-left: 60px;
+    list-style-type: none;
+    line-height: 75px;
+
+    width: 35%;
+
+    color: #fff;
+}
+
+.menu_btn
+{
+    position: relative;
+    text-transform: uppercase;
+
+    font-size: 38px;
+    margin: auto;
+
+    transition:  .2s linear;
+}
+
+.menu_btn:after
+{
+    content: "";
+    display: block;
+    position: absolute;
+
+    top: 100%;
+
+    opacity: 0;
+    background-color: #fff;
+    height: 3px;
+    width: 0%;
+    transition: .2s linear;
+}
+
+.menu_btn:hover
+{
+    position: relative;
+    font-size: 39px;
+    color: #d66969;
+}
+
+.menu_btn:hover:after
+{
+    display: block;
+    position: absolute;
+    content: "";
+
+    top: 100%;
+
+    height: 3px;
+    width: 100%;
+    background-color: #d66969;;
+    opacity: 100%;
+}
+
+.frog_left_block
+{
+    margin: auto;
+
+    width: 227px;
+    height: 227px;
+    background: url("../img/general/frog.jpg") center no-repeat;
+
+    border: 0px;
+    border-radius: 70px;
+}
+
+.toad_right_block
+{
+    margin: auto;
+
+    width: 227px;
+    height: 227px;
+    background: url("../img/general/toad.jpg") center no-repeat;
+
+    border: 0px;
+    border-radius: 70px;
+}
+
+#count_of_frogs, #count_of_toads
+{
+    padding-top: 18%;
+    text-align: center;
+    font-size: 150px;
+
+    transition: .2s linear;
+}
+
+#count_of_toads:hover, #count_of_frogs:hover
+{
+    color: #cbf883;
+    transform: scale(1.1);
+}
+
+/* Down */
+
+.down
+{
+    height: 60px;
+    position: absolute;
+
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: url("../img/general/down_bck_03.jpg") center ;
+}
+
+#chanel
+{
+    font-size: 33px;
+    display: block;
+
+    text-align: center;
+    padding-top: 13px;
+    text-decoration: none;
+    color: #fff;
+    opacity: 65%;
+
+    transition: 0.2s linear;
+}
+
+#chanel:hover
+{
+    color: #f2eb9bcb;
+}
